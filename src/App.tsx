@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Template from './component/Template';
+import TodoList from './components/TodoList';
 
 const App: React.FC = () => {
   return (
-    <Template/>
+    <TodoList/>
   );
 }
 
